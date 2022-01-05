@@ -4,27 +4,35 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from './material/material.module';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { SnackbarComponent } from './snackbar/snackbar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MatNativeDateModule } from '@angular/material/core';
+import { shoppingListComponent } from './shopping-list/shopping-list.component';
+import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
+import { HeaderComponent } from './header/header.component';
+import { recipesComponent } from './recipes/recipes.component';
+import { RecipeDetailsComponent } from './recipes/recipe-details/recipe-details.component';
+import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
+import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
-    SnackbarComponent
+    shoppingListComponent,
+    RecipeListComponent,
+    HeaderComponent,
+    recipesComponent,
+    RecipeDetailsComponent,
+    RecipeItemComponent,
+    ShoppingEditComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule,
     ReactiveFormsModule,
     FormsModule,
-    MatNativeDateModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
