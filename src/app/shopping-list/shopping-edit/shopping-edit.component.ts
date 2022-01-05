@@ -1,3 +1,4 @@
+import { style } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shopping-edit.component.scss']
 })
 export class ShoppingEditComponent implements OnInit {
+  cardItems = [{ checking: 'one', title: 'hello sreinivas', description: 'lorem ipsum hello srinivas' }];
+
+
+
+
 
   constructor() { }
 

@@ -1,0 +1,7 @@
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{cards.title}}</h5>
+      <p class="card-text" *ngIf="cards.checking === 'one'" style="color:blue">{{cards.description}}</p>
+      <p class="card-text" *ngIf="cards.checking === 'two'" style="color:green" >{{cards.description}}</p>
+    </div>
+  </div>

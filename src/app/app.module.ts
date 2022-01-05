@@ -12,6 +12,8 @@ import { recipesComponent } from './recipes/recipes.component';
 import { RecipeDetailsComponent } from './recipes/recipe-details/recipe-details.component';
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
+import { CockpitComponent } from './cockpit/cockpit.component';
+import { ServersComponent } from './servers/servers.component';
 
 
 
@@ -24,7 +26,10 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     recipesComponent,
     RecipeDetailsComponent,
     RecipeItemComponent,
-    ShoppingEditComponent
+    ShoppingEditComponent,
+    CockpitComponent,
+    ServersComponent
+
   ],
   imports: [
     BrowserModule,

@@ -2,6 +2,9 @@
     <div class="col-sm-10">
         <app-shopping-edit></app-shopping-edit>
         <hr>
-        <p>the list</p>
+        <ul class="list-group">
+            <li class="list-group-item" *ngFor="let ingred of ingredients">{{ingred.name}} - ({{ingred.amount}})</li>
+            
+        </ul>
     </div>
 </div>
